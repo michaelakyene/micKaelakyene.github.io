@@ -1,0 +1,63 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 15px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #00539f;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
+button {
+  display: block;
+  margin: 40px auto;
+  background: linear-gradient(90deg, #ff9500 0%, #00539f 100%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(90deg, #00539f 0%, #ff9500 100%);
+}
